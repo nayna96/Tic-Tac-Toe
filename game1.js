@@ -193,15 +193,15 @@ function playAgain() {
     ok = 0;
     who_won = 0;
 			
-    document.getElementById('A').src = "images/blank.jpg";
-    document.getElementById('B').src = "images/blank.jpg";
-    document.getElementById('C').src = "images/blank.jpg";
-    document.getElementById('D').src = "images/blank.jpg";
-    document.getElementById('E').src = "images/blank.jpg";
-    document.getElementById('F').src = "images/blank.jpg";
-    document.getElementById('G').src = "images/blank.jpg";
-    document.getElementById('H').src = "images/blank.jpg";
-    document.getElementById('I').src = "images/blank.jpg";
+    document.getElementById('A').src = "blank.jpg";
+    document.getElementById('B').src = "blank.jpg";
+    document.getElementById('C').src = "blank.jpg";
+    document.getElementById('D').src = "blank.jpg";
+    document.getElementById('E').src = "blank.jpg";
+    document.getElementById('F').src = "blank.jpg";
+    document.getElementById('G').src = "blank.jpg";
+    document.getElementById('H').src = "blank.jpg";
+    document.getElementById('I').src = "blank.jpg";
 }
 
 function reset() {
@@ -248,7 +248,7 @@ function Move(c) {
     if (whose_move === 1) {
         check_Space();
         if (ok === 1) {
-            document.getElementById(c).src = "images/o.jpg";
+            document.getElementById(c).src = "o.jpg";
             whose_move = 2;
             process();
         } else {
@@ -258,7 +258,7 @@ function Move(c) {
         check_Space();
         
         if (ok === 1) {
-            document.getElementById(c).src = "images/x.jpg";
+            document.getElementById(c).src = "x.jpg";
             whose_move = 1;
             process();
         } else {
