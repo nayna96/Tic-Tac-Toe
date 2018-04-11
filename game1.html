@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>TIC-TAC-TOE</title>
+        <script language ="javascript" type="text/javascript" src ="game1.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        
+        <!--- if IE
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    </head>
+    
+    <body>
+
+        <div id = "container">
+            
+            <!--- MENU -->
+            <nav  id="header">
+                
+                <ul class="left-links">
+                    <li><a href="index.html">Home</a></li>
+                </ul>
+                
+                <ul class="right-links">    
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="register.html">Register</a></li>
+                </ul>
+            </nav>
+            
+            <!--- GAME -->
+            <table>
+                
+                <tr>
+                    <td><a href="javascript:Move('A')"><img src ="images/blank.jpg" border="0" height = "100" width = "100" id="A"></a></td>
+                    <td><a href="javascript:Move('B')"><img src ="images/blank.jpg" border="0" height = "100" width = "100" id="B"></a></td>
+                    <td><a href="javascript:Move('C')"><img src ="images/blank.jpg" border="0" height = "100" width = "100" id="C"></a></td>
+                </tr>
+                
+                <tr>
+                    <td><a href="javascript:Move('D')"><img src ="images/blank.jpg" border="0" height = "100" width = "100" id="D"></a></td>
+                    <td><a href="javascript:Move('E')"><img src ="images/blank.jpg" border="0" height = "100" width = "100" id="E"></a></td>
+                    <td><a href="javascript:Move('F')"><img src ="images/blank.jpg" border="0" height = "100" width = "100" id="F"></a></td>
+                </tr>
+                
+                <tr>
+                    <td><a href="javascript:Move('G')"><img src ="images/blank.jpg" border="0" height = "100" width = "100" id="G"></a></td>
+                    <td><a href="javascript:Move('H')"><img src ="images/blank.jpg" border="0" height = "100" width = "100" id="H"></a></td>
+                    <td><a href="javascript:Move('I')"><img src ="images/blank.jpg" border="0" height = "100" width = "100" id="I"></a></td>
+                </tr>
+            
+            </table>
+            
+            <label>Player 1</label>
+            <input type="text" size ="5" id ="player1" value ="0">
+            <label>Player 2</label>		
+            <input type="text" size ="5" id ="player2" value ="0">
+            <label>Ties</label>
+            <input type="text" size ="5" id ="ties" value ="0">
+            
+            <nav id="options">
+            
+                <ul>
+                    <li><a href="javascript:playAgain();">Play Again</a></li>
+                    <li><a href="game2.html">Play against computer</a></li><br>
+                    <li><a href="instructions.html">Game help</a></li><br> 
+                    <li><a href="game1.html">Reset</a></li>
+                </ul>
+            </nav>
+                         
+        </div>
+        
+    </body>
+    
+</html>

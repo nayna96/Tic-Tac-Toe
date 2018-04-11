@@ -1,0 +1,124 @@
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background: #f2f2f2;
+    font-size: 18px;
+    font-family: Georgia, Times serif;
+    
+}
+
+#container
+{
+    width: 760px;
+    height: 600px;
+    background: white;
+    margin: 0 auto;
+    text-align: center;
+    padding: 5px;
+}
+
+h1
+{
+    padding: 10px;
+    margin-top: 60px;
+    border: solid; 
+}
+
+ol li
+{
+    text-align: left;
+}
+
+p
+{
+    text-align: left;
+    padding: 10px;
+}
+
+a:link, a:visited
+{
+    color: #555;
+    text-decoration: none;
+}
+
+a:hover
+{
+    text-decoration: underline;
+    color: green;
+    font-weight: bold;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a:link,
+nav ul li a:visited
+{
+    color: #555;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav ul li a:hover
+{
+    text-decoration: underline;
+    color: green;
+    font-weight: bold;
+}
+
+nav ul.left-links 
+{
+    float: left;
+    text-align: left;
+}
+
+nav ul.right-links 
+{
+    float: right;
+    text-align: right;
+}
+
+img
+{
+    margin-top: 20px;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+table
+{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    border : 0; 
+    border-collapse: collapse;
+    border-style: hidden;
+    width : 300px; 
+}
+    
+td 
+{
+    border-top: none;
+    border-left: none;
+    border: 5px solid green;
+}
+
+input[type="text"]
+{
+    text-align: left;
+}
+
+form
+{
+    text-align: left;
+}
